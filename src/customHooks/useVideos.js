@@ -15,7 +15,6 @@ const useVideos = (defaultsearchTerm) => {
             q: term
           }
         }
-
         const res = await youtube.get('/search', p);
         setVideos(res.data.items);
       }
