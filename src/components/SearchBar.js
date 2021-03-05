@@ -15,7 +15,7 @@ const SearchBar = ({ formProp }) => {
         <div className=" search-bar ui segment">
             <form className="ui form" onSubmit={onFormSubmit}> 
                 <div className="field ">
-                    <label style={{textAlign: 'center'}}>Video Search</label>
+                    <label style={{textAlign: 'center'}}>Search</label>
                         <input type="text" placeholder="Search Here."
                             onChange={onInputChange} 
                             value={term} />
